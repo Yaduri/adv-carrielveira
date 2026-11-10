@@ -1,11 +1,6 @@
 (function () {
   'use strict';
 
-  // Ícones (Lucide via CDN). Se a CDN falhar, a página continua funcional.
-  if (window.lucide) {
-    window.lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
-  }
-
   // Ano do rodapé
   var ano = document.getElementById('ano');
   if (ano) ano.textContent = new Date().getFullYear();
@@ -55,6 +50,7 @@
 
   // Animações de entrada
   var items = document.querySelectorAll('.reveal');
+  window.__revealReady = true;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reduce || !('IntersectionObserver' in window)) {
     items.forEach(function (el) { el.classList.add('is-visible'); });

@@ -10,7 +10,8 @@
   <meta property="og:locale" content="pt_BR">
   <meta property="og:title" content="Carriel Vieira Advogados | Itapetininga/SP">
   <meta property="og:description" content="Segurança jurídica para o patrimônio, o agronegócio, os imóveis e os negócios em Itapetininga e região.">
-  <meta property="og:image" content="./logo.jpg">
+  <meta property="og:image" content="https://adv-carrielvieira.pages.dev/logo.jpg">
+  <meta property="og:image:alt" content="Logo Carriel Vieira Advogados">
   <link rel="icon" href="./logo.jpg" type="image/jpeg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,7 @@
     "@context": "https://schema.org",
     "@type": "LegalService",
     "name": "Carriel Vieira Advogados",
-    "image": "logo.jpg",
+    "image": "https://adv-carrielvieira.pages.dev/logo.jpg",
     "telephone": "+55-15-99760-7199",
     "address": {
       "@type": "PostalAddress",
@@ -38,16 +39,21 @@
     "sameAs": ["https://www.instagram.com/adv.carrielvieira"]
   }
   </script>
-  <script>document.documentElement.classList.add('js');</script>
+  <script>
+    // Esconde os blocos animados só enquanto o script.js carrega; se ele falhar, o conteúdo reaparece.
+    document.documentElement.classList.add('js');
+    setTimeout(function () { if (!window.__revealReady) document.documentElement.classList.remove('js'); }, 2500);
+  </script>
 </head>
 <body>
+  <!-- Ícones: Lucide v0.460.0 (https://lucide.dev), licença ISC, embutidos como SVG. -->
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
   <!-- ===== Cabeçalho ===== -->
   <header class="header" id="topo">
     <div class="container header__inner">
       <a class="brand" href="#topo" aria-label="Carriel Vieira Advogados — início">
-        <i data-lucide="scale" class="brand__icon" aria-hidden="true"></i>
+        <svg class="lucide lucide-scale brand__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
         <span class="brand__text">
           <span class="brand__name">Carriel Vieira</span>
           <span class="brand__sub">Advogados</span>
@@ -55,7 +61,7 @@
       </a>
 
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
-        <i data-lucide="menu" aria-hidden="true"></i>
+        <svg class="lucide lucide-menu" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
       </button>
 
       <nav class="nav" id="menu" aria-label="Principal">
@@ -94,11 +100,11 @@
               Solicitar análise do caso
             </a>
             <a class="btn btn--ghost" href="#areas">
-              Áreas de atuação <i data-lucide="arrow-down" aria-hidden="true"></i>
+              Áreas de atuação <svg class="lucide lucide-arrow-down" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
             </a>
           </div>
           <p class="hero__note reveal">
-            <i data-lucide="lock" aria-hidden="true"></i>
+            <svg class="lucide lucide-lock" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
             Seu primeiro contato é tratado com sigilo profissional.
           </p>
         </div>
@@ -126,14 +132,13 @@
     <section class="section section--light" id="areas">
       <div class="container">
         <header class="section__head reveal">
-          <p class="eyebrow eyebrow--dark">Áreas de atuação</p>
           <h2>Quatro frentes para proteger <em>o que você construiu.</em></h2>
           <p>Atuação consultiva e contenciosa, da prevenção de conflitos à defesa dos seus interesses.</p>
         </header>
 
         <div class="cards">
           <article class="card reveal">
-            <span class="card__icon"><i data-lucide="wheat" aria-hidden="true"></i></span>
+            <span class="card__icon"><svg class="lucide lucide-wheat" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 22 16 8"/><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z"/><path d="M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/><path d="M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/><path d="M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/></svg></span>
             <h3>Direito Agrário</h3>
             <p>Proteção jurídica para o produtor rural e para a propriedade, com conhecimento da rotina do campo.</p>
             <ul>
@@ -145,7 +150,7 @@
           </article>
 
           <article class="card reveal">
-            <span class="card__icon"><i data-lucide="building-2" aria-hidden="true"></i></span>
+            <span class="card__icon"><svg class="lucide lucide-building-2" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></span>
             <h3>Direito Imobiliário</h3>
             <p>Segurança em cada etapa de negócios e questões que envolvem imóveis urbanos e rurais.</p>
             <ul>
@@ -157,7 +162,7 @@
           </article>
 
           <article class="card reveal">
-            <span class="card__icon"><i data-lucide="scroll-text" aria-hidden="true"></i></span>
+            <span class="card__icon"><svg class="lucide lucide-scroll-text" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 12h-5"/><path d="M15 8h-5"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg></span>
             <h3>Contratos</h3>
             <p>Documentos claros e bem estruturados, pensados para reduzir riscos antes da assinatura.</p>
             <ul>
@@ -169,7 +174,7 @@
           </article>
 
           <article class="card reveal">
-            <span class="card__icon"><i data-lucide="briefcase" aria-hidden="true"></i></span>
+            <span class="card__icon"><svg class="lucide lucide-briefcase" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg></span>
             <h3>Direito Empresarial</h3>
             <p>Suporte jurídico para empresas tomarem decisões com previsibilidade e respaldo técnico.</p>
             <ul>
@@ -185,7 +190,7 @@
           Não sabe em qual área seu caso se encaixa?
           <a target="_blank" rel="noopener"
              href="https://wa.me/5515997607199?text=Ol%C3%A1,%20Dr.%20Alessandro.%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20do%20meu%20caso">
-            Conte a situação pelo WhatsApp <i data-lucide="arrow-right" aria-hidden="true"></i>
+            Conte a situação pelo WhatsApp <svg class="lucide lucide-arrow-right" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
         </p>
       </div>
@@ -228,7 +233,6 @@
 
       <div class="container team">
         <div class="team__copy">
-          <p class="eyebrow reveal">O escritório</p>
           <h2 class="reveal">Uma equipe dedicada <em>a cada caso.</em></h2>
           <p class="reveal">
             O Carriel Vieira Advogados reúne profissionais que trabalham de forma integrada, sob a
@@ -251,32 +255,31 @@
     <section class="section section--light" id="atendimento">
       <div class="container">
         <header class="section__head reveal">
-          <p class="eyebrow eyebrow--dark">Como funciona o atendimento</p>
           <h2>Do primeiro contato <em>à condução do caso.</em></h2>
           <p>Um caminho simples e transparente, para você saber o que esperar em cada etapa.</p>
         </header>
 
         <ol class="steps">
           <li class="step reveal">
-            <span class="step__icon"><i data-lucide="message-circle" aria-hidden="true"></i></span>
+            <span class="step__icon"><svg class="lucide lucide-message-circle" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></span>
             <span class="step__num">Passo 1</span>
             <h3>Contato pelo WhatsApp</h3>
             <p>Você envia uma mensagem e conta, em poucas palavras, o que está acontecendo.</p>
           </li>
           <li class="step reveal">
-            <span class="step__icon"><i data-lucide="file-search" aria-hidden="true"></i></span>
+            <span class="step__icon"><svg class="lucide lucide-file-search" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3"/><path d="m9 18-1.5-1.5"/><circle cx="5" cy="14" r="3"/></svg></span>
             <span class="step__num">Passo 2</span>
             <h3>Entendimento do caso</h3>
             <p>O escritório ouve a sua situação e indica quais documentos são necessários.</p>
           </li>
           <li class="step reveal">
-            <span class="step__icon"><i data-lucide="compass" aria-hidden="true"></i></span>
+            <span class="step__icon"><svg class="lucide lucide-compass" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/><circle cx="12" cy="12" r="10"/></svg></span>
             <span class="step__num">Passo 3</span>
             <h3>Análise estratégica</h3>
             <p>Você recebe uma orientação clara sobre os caminhos possíveis, os riscos e os honorários.</p>
           </li>
           <li class="step reveal">
-            <span class="step__icon"><i data-lucide="scale" aria-hidden="true"></i></span>
+            <span class="step__icon"><svg class="lucide lucide-scale" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
             <span class="step__num">Passo 4</span>
             <h3>Condução do caso</h3>
             <p>O escritório atua em seu nome e mantém você informado sobre cada andamento.</p>
@@ -286,7 +289,7 @@
         <div class="center reveal">
           <a class="btn btn--dark" target="_blank" rel="noopener"
              href="https://wa.me/5515997607199?text=Ol%C3%A1,%20Dr.%20Alessandro.%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20do%20meu%20caso">
-            Iniciar pelo WhatsApp <i data-lucide="arrow-right" aria-hidden="true"></i>
+            Iniciar pelo WhatsApp <svg class="lucide lucide-arrow-right" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
         </div>
       </div>
@@ -296,7 +299,6 @@
     <section class="section section--dark" id="diferenciais">
       <div class="container diff">
         <header class="diff__head">
-          <p class="eyebrow reveal">Diferenciais</p>
           <h2 class="reveal">Advocacia próxima, técnica <em>e preventiva.</em></h2>
           <p class="reveal">
             Cinco compromissos que orientam o trabalho do escritório, do primeiro contato à
@@ -306,35 +308,35 @@
 
         <ul class="diff__list">
           <li class="reveal">
-            <i data-lucide="target" aria-hidden="true"></i>
+            <svg class="lucide lucide-target" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
             <div>
               <h3>Atendimento estratégico</h3>
               <p>Cada caso é estudado individualmente antes de qualquer recomendação. Não há fórmulas prontas.</p>
             </div>
           </li>
           <li class="reveal">
-            <i data-lucide="landmark" aria-hidden="true"></i>
+            <svg class="lucide lucide-landmark" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
             <div>
               <h3>Tradição em Itapetininga</h3>
               <p>Raízes na cidade e advocacia desde 2012, com conhecimento da realidade local e do agronegócio da região.</p>
             </div>
           </li>
           <li class="reveal">
-            <i data-lucide="lock" aria-hidden="true"></i>
+            <svg class="lucide lucide-lock" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
             <div>
               <h3>Sigilo absoluto</h3>
               <p>Informações e documentos são tratados com confidencialidade em todas as etapas.</p>
             </div>
           </li>
           <li class="reveal">
-            <i data-lucide="message-square-text" aria-hidden="true"></i>
+            <svg class="lucide lucide-message-square-text" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M13 8H7"/><path d="M17 12H7"/></svg>
             <div>
               <h3>Clareza técnica</h3>
               <p>Explicações objetivas, sem juridiquês, para que você decida entendendo o cenário e os riscos.</p>
             </div>
           </li>
           <li class="reveal">
-            <i data-lucide="shield-check" aria-hidden="true"></i>
+            <svg class="lucide lucide-shield-check" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
             <div>
               <h3>Segurança jurídica preventiva</h3>
               <p>Contratos e documentação bem estruturados antes que o problema apareça.</p>
@@ -348,7 +350,6 @@
     <section class="section section--light" id="faq">
       <div class="container faq">
         <header class="section__head reveal">
-          <p class="eyebrow eyebrow--dark">Perguntas frequentes</p>
           <h2>Dúvidas comuns, <em>respostas diretas.</em></h2>
           <p>As respostas abaixo têm caráter informativo e não substituem a análise do caso concreto.</p>
         </header>
@@ -357,7 +358,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq1" id="faq1-btn">
               Contrato de arrendamento ou parceria rural precisa ser por escrito?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq1" role="region" aria-labelledby="faq1-btn"><div>
               <p>A lei admite contratos agrários verbais, mas eles são difíceis de provar e costumam gerar conflito sobre prazo, preço e responsabilidades. Um contrato escrito, com cláusulas adequadas à atividade e ao Estatuto da Terra, dá previsibilidade para o proprietário e para quem explora a terra.</p>
@@ -367,7 +368,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq2" id="faq2-btn">
               Por que revisar um contrato antes de assinar?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq2" role="region" aria-labelledby="faq2-btn"><div>
               <p>Muitos problemas começam antes da assinatura: multas desproporcionais, obrigações mal definidas, garantias insuficientes. A revisão identifica esses pontos e permite negociar ajustes enquanto ainda há margem para isso, tanto em contratos empresariais quanto rurais ou imobiliários.</p>
@@ -377,7 +378,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq3" id="faq3-btn">
               Meu imóvel não tem escritura ou a matrícula está desatualizada. É possível regularizar?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq3" role="region" aria-labelledby="faq3-btn"><div>
               <p>Em muitos casos, sim. Existem diferentes caminhos, como escritura e registro, retificação de matrícula, usucapião judicial ou extrajudicial e adjudicação. O caminho adequado depende da documentação existente e do histórico do imóvel, o que é avaliado na análise do caso.</p>
@@ -387,7 +388,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq4" id="faq4-btn">
               O inventário precisa ser feito na Justiça?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq4" role="region" aria-labelledby="faq4-btn"><div>
               <p>Nem sempre. Quando há consenso entre os herdeiros e os requisitos legais são atendidos, o inventário pode ser feito em cartório, com assistência de advogado. Havendo divergência, o caminho é o judicial. Em ambos os casos há prazo legal para a abertura, e o atraso pode gerar multa sobre o imposto.</p>
@@ -397,7 +398,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq5" id="faq5-btn">
               Minha empresa precisa de assessoria jurídica mesmo sem processos?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq5" role="region" aria-labelledby="faq5-btn"><div>
               <p>A assessoria preventiva existe justamente para reduzir a chance de litígios. Ela organiza contratos com clientes, fornecedores e sócios e apoia decisões do dia a dia, com custo geralmente menor do que o de um conflito já instalado.</p>
@@ -407,7 +408,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq6" id="faq6-btn">
               Como agendar uma consulta?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq6" role="region" aria-labelledby="faq6-btn"><div>
               <p>O primeiro contato é feito pelo WhatsApp (15) 99760-7199. Você descreve brevemente a situação e o escritório agenda o atendimento, presencial em Itapetininga ou online. Os honorários são explicados com clareza antes de qualquer contratação.</p>
@@ -417,7 +418,7 @@
           <div class="acc reveal">
             <h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq7" id="faq7-btn">
               O escritório atende clientes de outras cidades?
-              <i data-lucide="plus" aria-hidden="true"></i>
+              <svg class="lucide lucide-plus" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
             </button></h3>
             <div class="acc__panel" id="faq7" role="region" aria-labelledby="faq7-btn"><div>
               <p>Sim. Além do atendimento presencial em Itapetininga, o escritório atende de forma online clientes de toda a região.</p>
@@ -440,14 +441,14 @@
 
           <ul class="contact__list">
             <li class="reveal">
-              <i data-lucide="map-pin" aria-hidden="true"></i>
+              <svg class="lucide lucide-map-pin" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
               <div>
                 <strong>Endereço</strong>
                 <address>Rua Adolfo Arruda Melo, 330 — Jardim Itália<br>Itapetininga/SP · CEP 18201-750</address>
               </div>
             </li>
             <li class="reveal">
-              <i data-lucide="phone" aria-hidden="true"></i>
+              <svg class="lucide lucide-phone" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               <div>
                 <strong>Telefone e WhatsApp</strong>
                 <a target="_blank" rel="noopener"
@@ -455,7 +456,7 @@
               </div>
             </li>
             <li class="reveal">
-              <i data-lucide="instagram" aria-hidden="true"></i>
+              <svg class="lucide lucide-instagram" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               <div>
                 <strong>Instagram</strong>
                 <a target="_blank" rel="noopener" href="https://www.instagram.com/adv.carrielvieira">@adv.carrielvieira</a>
@@ -476,7 +477,7 @@
                   src="https://www.google.com/maps?q=Rua+Adolfo+Arruda+Melo,+330,+Jardim+It%C3%A1lia,+Itapetininga,+SP,+18201-750&output=embed"></iframe>
           <a class="contact__route" target="_blank" rel="noopener"
              href="https://www.google.com/maps/dir/?api=1&destination=Rua+Adolfo+Arruda+Melo,+330,+Jardim+It%C3%A1lia,+Itapetininga,+SP">
-            <i data-lucide="navigation" aria-hidden="true"></i> Traçar rota
+            <svg class="lucide lucide-navigation" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg> Traçar rota
           </a>
         </div>
       </div>
@@ -521,7 +522,6 @@
     <svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
   </a>
 
-  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>

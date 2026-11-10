@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T11:56:55.365Z",
+        "reason": "user confirmed 2026-11-10: gold-italic emphasis on the tail of headlines mirrors the office's Instagram posts; recorded in DESIGN.md"
+      }
+    ]
+  }
+}

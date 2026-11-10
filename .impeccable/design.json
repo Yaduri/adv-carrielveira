@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T12:00:00Z",
+  "title": "Design System: Carriel Vieira Advogados",
+  "extensions": {
+    "colorMeta": {
+      "warm-black": { "role": "neutral", "displayName": "Warm Black", "tonalRamp": ["#050403", "#0e0c08", "#16130d", "#211c12", "#33290a", "#5d5545", "#b3aa97", "#ece6d8"] },
+      "warm-black-raised": { "role": "neutral", "displayName": "Warm Black Raised" },
+      "warm-black-high": { "role": "neutral", "displayName": "Warm Black High" },
+      "footer-black": { "role": "neutral", "displayName": "Footer Black" },
+      "logo-brown": { "role": "neutral", "displayName": "Logo Brown" },
+      "matte-gold": { "role": "primary", "displayName": "Matte Gold", "tonalRamp": ["#3d2f12", "#5e481c", "#7a5d22", "#9a7a36", "#b08a42", "#c9a55c", "#e2c88c", "#f4e8cc"] },
+      "pale-gold": { "role": "primary", "displayName": "Pale Gold" },
+      "ink-gold": { "role": "primary", "displayName": "Ink Gold" },
+      "deed-cream": { "role": "neutral", "displayName": "Deed Cream", "tonalRamp": ["#d9cdb4", "#e3d9c4", "#ece4d3", "#f1eadc", "#f6f1e7", "#f9f6ef", "#fffdf8", "#ffffff"] },
+      "deed-cream-deep": { "role": "neutral", "displayName": "Deed Cream Deep" },
+      "card-paper": { "role": "neutral", "displayName": "Card Paper" },
+      "text-on-dark": { "role": "neutral", "displayName": "Text on Dark" },
+      "muted-on-dark": { "role": "neutral", "displayName": "Muted on Dark" },
+      "text-on-cream": { "role": "neutral", "displayName": "Text on Cream" },
+      "muted-on-cream": { "role": "neutral", "displayName": "Muted on Cream" },
+      "whatsapp-green": { "role": "tertiary", "displayName": "WhatsApp Green" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only; may end in an italic gold tail." },
+      "headline": { "displayName": "Headline", "purpose": "One per section, balanced wrapping." },
+      "title": { "displayName": "Title", "purpose": "Card, step, differential and FAQ question titles." },
+      "body": { "displayName": "Body", "purpose": "Paragraphs at 34–44rem measure." },
+      "label": { "displayName": "Label", "purpose": "Uppercase gold eyebrows, step numbers, contact field names." }
+    },
+    "shadows": [
+      { "name": "card-hover", "value": "0 24px 48px -28px rgba(29, 25, 18, .45)", "purpose": "Soft drop under a practice card on hover only." },
+      { "name": "float-wa", "value": "0 12px 30px -8px rgba(0, 0, 0, .6)", "purpose": "Lifts the WhatsApp floating button off the page." }
+    ],
+    "motion": [
+      { "name": "ease-out-soft", "value": "cubic-bezier(.2, .7, .2, 1)", "purpose": "All entrances, card lift, accordion and button transitions." },
+      { "name": "reveal", "value": "opacity + translateY(22px), 800ms, 80ms stagger capped at 5", "purpose": "One-time entrance as blocks enter the viewport." },
+      { "name": "pulse", "value": "scale 1 → 1.7, opacity .7 → 0, 2.6s infinite", "purpose": "WhatsApp float ring; disabled under reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "lg", "value": "1080px" },
+      { "name": "md", "value": "900px" },
+      { "name": "sm", "value": "600px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold WhatsApp CTA used on dark bands and the header.",
+      "html": "<a class=\"ds-btn-gold\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.9A11.8 11.8 0 0 0 12.05 0Zm0 21.79a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.89 9.89 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88Z\"/></svg>Solicitar análise do caso</a>",
+      "css": ".ds-btn-gold{display:inline-flex;align-items:center;gap:.65rem;padding:1rem 1.6rem;background:#c9a55c;color:#0e0c08;font:600 .92rem/1.2 Manrope,system-ui,sans-serif;letter-spacing:.02em;text-decoration:none;border-radius:4px;transition:background-color .25s,transform .25s cubic-bezier(.2,.7,.2,1)}.ds-btn-gold:hover{background:#e2c88c;transform:translateY(-2px)}.ds-btn-gold:focus-visible{outline:2px solid #c9a55c;outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action on dark bands.",
+      "html": "<div style=\"background:#0e0c08;padding:16px;display:inline-block\"><a class=\"ds-btn-ghost\" href=\"#\">Áreas de atuação</a></div>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;gap:.65rem;padding:1rem 1.6rem;background:transparent;color:#ece6d8;border:1px solid rgba(201,165,92,.28);font:600 .92rem/1.2 Manrope,system-ui,sans-serif;text-decoration:none;border-radius:4px;transition:border-color .25s,color .25s}.ds-btn-ghost:hover{border-color:#c9a55c;color:#e2c88c}.ds-btn-ghost:focus-visible{outline:2px solid #c9a55c;outline-offset:3px}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "CTA on cream bands.",
+      "html": "<a class=\"ds-btn-dark\" href=\"#\">Iniciar pelo WhatsApp →</a>",
+      "css": ".ds-btn-dark{display:inline-flex;padding:1rem 1.6rem;background:#0e0c08;color:#f6f1e7;font:600 .92rem/1.2 Manrope,system-ui,sans-serif;text-decoration:none;border-radius:4px;transition:background-color .25s,transform .25s}.ds-btn-dark:hover{background:#33290a;transform:translateY(-2px)}.ds-btn-dark:focus-visible{outline:2px solid #7a5d22;outline-offset:3px}"
+    },
+    {
+      "name": "Practice-area Card",
+      "kind": "card",
+      "refersTo": "area-card",
+      "description": "Paper sheet on cream with a black medallion icon and a ruled list.",
+      "html": "<article class=\"ds-card\"><span class=\"ds-medal\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2 22 16 8\"/><path d=\"M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"/><path d=\"M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"/><path d=\"M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"/></svg></span><h3>Direito Agrário</h3><p>Proteção jurídica para o produtor rural e para a propriedade.</p><ul><li>Contratos de arrendamento</li><li>Posse e conflitos possessórios</li></ul></article>",
+      "css": ".ds-card{position:relative;max-width:280px;padding:2.2rem 1.7rem 2rem;background:#fffdf8;border:1px solid rgba(29,25,18,.14);border-radius:4px;color:#1d1912;font-family:Manrope,system-ui,sans-serif;transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,border-color .35s}.ds-card::after{content:'';position:absolute;left:0;top:0;width:100%;height:2px;background:#c9a55c;transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.7,.2,1)}.ds-card:hover{transform:translateY(-6px);border-color:rgba(122,93,34,.45);box-shadow:0 24px 48px -28px rgba(29,25,18,.45)}.ds-card:hover::after{transform:scaleX(1)}.ds-medal{display:grid;place-items:center;width:3.4rem;height:3.4rem;margin-bottom:1.5rem;background:#0e0c08;color:#c9a55c;border-radius:50%}.ds-card h3{margin:0;font:600 1.5rem/1.2 'Cormorant Garamond',serif}.ds-card p{margin:.7rem 0 0;font-size:.95rem;line-height:1.7;color:#5d5545}.ds-card ul{list-style:none;margin:1.3rem 0 0;padding:1.3rem 0 0;border-top:1px solid rgba(29,25,18,.14);display:grid;gap:.55rem}.ds-card li{position:relative;padding-left:1.1rem;font-size:.9rem}.ds-card li::before{content:'';position:absolute;left:0;top:.6em;width:.4rem;height:1px;background:#7a5d22}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Signature lockup, links with gold underline on hover, gold CTA.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-brand-name\">Carriel Vieira</span><span class=\"ds-brand-sub\">Advogados</span></a><div class=\"ds-links\"><a href=\"#\">Áreas de atuação</a><a href=\"#\">Sobre</a><a href=\"#\">Contato</a></div></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1rem 1.5rem;background:rgba(14,12,8,.94);border-bottom:1px solid rgba(201,165,92,.28)}.ds-brand{display:flex;flex-direction:column;line-height:1;text-decoration:none;color:#fff}.ds-brand-name{font:500 1.32rem 'Cormorant Garamond',serif;letter-spacing:.14em;text-transform:uppercase}.ds-brand-sub{margin-top:.32rem;font:600 .58rem Manrope,sans-serif;letter-spacing:.52em;text-transform:uppercase;color:#c9a55c}.ds-links{display:flex;gap:1.9rem}.ds-links a{font:500 .86rem Manrope,sans-serif;color:#ece6d8;text-decoration:none;padding:.4rem 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}.ds-links a:hover{color:#e2c88c;border-bottom-color:#c9a55c}.ds-links a:focus-visible{outline:2px solid #c9a55c;outline-offset:3px}"
+    },
+    {
+      "name": "FAQ Accordion Item",
+      "kind": "custom",
+      "refersTo": "accordion",
+      "description": "Serif question between hairlines with a rotating gold plus.",
+      "html": "<div class=\"ds-acc\"><button class=\"ds-acc-btn\" type=\"button\" aria-expanded=\"false\">Como agendar uma consulta?<span aria-hidden=\"true\">+</span></button></div>",
+      "css": ".ds-acc{max-width:40rem;border-top:1px solid rgba(29,25,18,.14);border-bottom:1px solid rgba(29,25,18,.14);background:#f6f1e7}.ds-acc-btn{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;width:100%;padding:1.5rem .25rem;background:none;border:0;cursor:pointer;text-align:left;font:600 1.4rem/1.25 'Cormorant Garamond',serif;color:#1d1912;transition:color .2s}.ds-acc-btn span{color:#7a5d22;font:400 1.6rem/1 Manrope,sans-serif;transition:transform .35s}.ds-acc-btn:hover{color:#7a5d22}.ds-acc-btn[aria-expanded=true] span{transform:rotate(45deg)}.ds-acc-btn:focus-visible{outline:2px solid #7a5d22;outline-offset:3px}"
+    },
+    {
+      "name": "WhatsApp Float",
+      "kind": "button",
+      "refersTo": "whatsapp-float",
+      "description": "The single green element: floating WhatsApp button with a pulsing ring.",
+      "html": "<a class=\"ds-wa\" href=\"#\" aria-label=\"WhatsApp\"><svg viewBox=\"0 0 24 24\" width=\"32\" height=\"32\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.9A11.8 11.8 0 0 0 12.05 0Zm0 21.79a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.89 9.89 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88Z\"/></svg></a>",
+      "css": ".ds-wa{position:relative;display:grid;place-items:center;width:3.75rem;height:3.75rem;border-radius:50%;background:#25d366;color:#fff;box-shadow:0 12px 30px -8px rgba(0,0,0,.6);transition:transform .3s}.ds-wa::after{content:'';position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ds-pulse 2.6s ease-out infinite}.ds-wa:hover{transform:scale(1.07)}.ds-wa:focus-visible{outline:2px solid #c9a55c;outline-offset:3px}@keyframes ds-pulse{from{transform:scale(1);opacity:.7}to{transform:scale(1.7);opacity:0}}@media (prefers-reduced-motion:reduce){.ds-wa::after{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Cartório de Ouro",
+    "overview": "The site reads like a well-kept notary office: cream paper, black ink and thin gold rules, the visual language of a deed rather than of a startup. Everything is sober and documentary. Authority comes from order, generous margins and a high-contrast serif, never from effects, badges or numbers. The identity is taken from the office's own Instagram (@adv.carrielvieira) and logo: warm black and logo brown, matte gold, a serif with a gold italic flourish, and a widely spaced \"ADVOGADOS\" signature.\n\nThe page alternates warm-black and deed-cream bands. Dark bands carry the person and the promise (hero, about, differentials, contact); cream bands carry the reading (practice areas, process, FAQ). Gold is ink, not paint: it draws lines, frames photographs, marks icons and colors a few words, and it fills a surface only on the primary button.\n\nMotion is quiet. Blocks rise 22px and fade in once as they enter the viewport, cards lift 6px on hover, and the WhatsApp button breathes with a soft ring. Everything stops under `prefers-reduced-motion`.",
+    "keyCharacteristics": [
+      "Alternating warm-black and cream bands; no gradients beyond a faint gold glow in the hero.",
+      "Gold as line and accent: 1px rules, offset photo frames, icon strokes, italic emphasis.",
+      "Serif display, sans body; italic only on the emphasized tail of a headline.",
+      "Square-ish 4px corners; circles only for icon medallions and the WhatsApp button.",
+      "Flat surfaces; one soft shadow, on card hover only."
+    ],
+    "rules": [
+      { "name": "The Ink, Not Paint Rule", "body": "Gold draws lines, frames, icons and a few words. The only gold-filled surface is the primary button.", "section": "colors" },
+      { "name": "The One Green Rule", "body": "WhatsApp green appears once, on the floating button. Every other WhatsApp CTA is gold.", "section": "colors" },
+      { "name": "The Gold Tail Rule", "body": "A headline may end with one italic gold phrase that completes the thought (\"…*no campo, nos imóveis e nos negócios.*\"). One per headline, always at the end, never a single word. This is an approved exception to the italic-serif detector (user confirmed).", "section": "typography" },
+      { "name": "The Few Eyebrows Rule", "body": "Uppercase gold eyebrows appear only where the headline alone would not say what the section is: the hero, \"Sobre o advogado\" and \"Localização e contato\". Every other section opens with the headline. Never add more than three besides the hero.", "section": "typography" },
+      { "name": "The Mat Frame Rule", "body": "Portrait photographs sit on a 1px gold frame offset about 1rem from the image, never inside a rounded card or a shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do alternate dark and cream bands, with the person and the promise on dark and the reading on cream.",
+      "Do frame portraits with the offset gold mat frame and keep the photos' own black-and-white or desaturated grading.",
+      "Do keep every CTA pointing to the same WhatsApp link, in gold, with the one green floating button.",
+      "Do use Lucide line icons at 1.5 stroke, inlined as SVG (no icon CDN), in gold or ink gold, inside a medallion or outlined circle.",
+      "Do use ink gold, never matte gold, for any gold text on cream; matte gold on cream fails contrast."
+    ],
+    "donts": [
+      "Don't add testimonials, counters, result badges or \"case won\" figures. The OAB rules out the content, and the system has no component for it.",
+      "Don't use gold as a background fill beyond the primary button, or add gradients other than the faint hero glow.",
+      "Don't round corners beyond 4px or put photographs inside rounded or shadowed cards.",
+      "Don't set whole headlines in italic or emphasize single words; the italic gold tail ends the line.",
+      "Don't introduce a second accent color. The palette is warm black, cream and gold, plus WhatsApp green on one button."
+    ]
+  }
+}
