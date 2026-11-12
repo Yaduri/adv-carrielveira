@@ -1,46 +1,168 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T12:00:00Z",
+  "generatedAt": "2026-11-12T11:50:21Z",
   "title": "Design System: Carriel Vieira Advogados",
   "extensions": {
     "colorMeta": {
-      "warm-black": { "role": "neutral", "displayName": "Warm Black", "tonalRamp": ["#050403", "#0e0c08", "#16130d", "#211c12", "#33290a", "#5d5545", "#b3aa97", "#ece6d8"] },
-      "warm-black-raised": { "role": "neutral", "displayName": "Warm Black Raised" },
-      "warm-black-high": { "role": "neutral", "displayName": "Warm Black High" },
-      "footer-black": { "role": "neutral", "displayName": "Footer Black" },
-      "logo-brown": { "role": "neutral", "displayName": "Logo Brown" },
-      "matte-gold": { "role": "primary", "displayName": "Matte Gold", "tonalRamp": ["#3d2f12", "#5e481c", "#7a5d22", "#9a7a36", "#b08a42", "#c9a55c", "#e2c88c", "#f4e8cc"] },
-      "pale-gold": { "role": "primary", "displayName": "Pale Gold" },
-      "ink-gold": { "role": "primary", "displayName": "Ink Gold" },
-      "deed-cream": { "role": "neutral", "displayName": "Deed Cream", "tonalRamp": ["#d9cdb4", "#e3d9c4", "#ece4d3", "#f1eadc", "#f6f1e7", "#f9f6ef", "#fffdf8", "#ffffff"] },
-      "deed-cream-deep": { "role": "neutral", "displayName": "Deed Cream Deep" },
-      "card-paper": { "role": "neutral", "displayName": "Card Paper" },
-      "text-on-dark": { "role": "neutral", "displayName": "Text on Dark" },
-      "muted-on-dark": { "role": "neutral", "displayName": "Muted on Dark" },
-      "text-on-cream": { "role": "neutral", "displayName": "Text on Cream" },
-      "muted-on-cream": { "role": "neutral", "displayName": "Muted on Cream" },
-      "whatsapp-green": { "role": "tertiary", "displayName": "WhatsApp Green" }
+      "warm-black": {
+        "role": "neutral",
+        "displayName": "Warm Black",
+        "tonalRamp": [
+          "#050403",
+          "#0e0c08",
+          "#16130d",
+          "#211c12",
+          "#33290a",
+          "#5d5545",
+          "#b3aa97",
+          "#ece6d8"
+        ]
+      },
+      "warm-black-raised": {
+        "role": "neutral",
+        "displayName": "Warm Black Raised"
+      },
+      "warm-black-high": {
+        "role": "neutral",
+        "displayName": "Warm Black High"
+      },
+      "footer-black": {
+        "role": "neutral",
+        "displayName": "Footer Black"
+      },
+      "logo-brown": {
+        "role": "neutral",
+        "displayName": "Logo Brown"
+      },
+      "matte-gold": {
+        "role": "primary",
+        "displayName": "Matte Gold",
+        "tonalRamp": [
+          "#3d2f12",
+          "#5e481c",
+          "#7a5d22",
+          "#9a7a36",
+          "#b08a42",
+          "#c9a55c",
+          "#e2c88c",
+          "#f4e8cc"
+        ]
+      },
+      "pale-gold": {
+        "role": "primary",
+        "displayName": "Pale Gold"
+      },
+      "ink-gold": {
+        "role": "primary",
+        "displayName": "Ink Gold"
+      },
+      "deed-cream": {
+        "role": "neutral",
+        "displayName": "Deed Cream",
+        "tonalRamp": [
+          "#d9cdb4",
+          "#e3d9c4",
+          "#ece4d3",
+          "#f1eadc",
+          "#f6f1e7",
+          "#f9f6ef",
+          "#fffdf8",
+          "#ffffff"
+        ]
+      },
+      "deed-cream-deep": {
+        "role": "neutral",
+        "displayName": "Deed Cream Deep"
+      },
+      "card-paper": {
+        "role": "neutral",
+        "displayName": "Card Paper"
+      },
+      "text-on-dark": {
+        "role": "neutral",
+        "displayName": "Text on Dark"
+      },
+      "muted-on-dark": {
+        "role": "neutral",
+        "displayName": "Muted on Dark"
+      },
+      "text-on-cream": {
+        "role": "neutral",
+        "displayName": "Text on Cream"
+      },
+      "muted-on-cream": {
+        "role": "neutral",
+        "displayName": "Muted on Cream"
+      },
+      "whatsapp-green": {
+        "role": "tertiary",
+        "displayName": "WhatsApp Green"
+      }
     },
     "typographyMeta": {
-      "display": { "displayName": "Display", "purpose": "Hero headline only; may end in an italic gold tail." },
-      "headline": { "displayName": "Headline", "purpose": "One per section, balanced wrapping." },
-      "title": { "displayName": "Title", "purpose": "Card, step, differential and FAQ question titles." },
-      "body": { "displayName": "Body", "purpose": "Paragraphs at 34–44rem measure." },
-      "label": { "displayName": "Label", "purpose": "Uppercase gold eyebrows, step numbers, contact field names." }
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; may end in an italic gold tail."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One per section, balanced wrapping."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card, step, differential and FAQ question titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs at 34–44rem measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase gold eyebrows, step numbers, contact field names."
+      }
     },
     "shadows": [
-      { "name": "card-hover", "value": "0 24px 48px -28px rgba(29, 25, 18, .45)", "purpose": "Soft drop under a practice card on hover only." },
-      { "name": "float-wa", "value": "0 12px 30px -8px rgba(0, 0, 0, .6)", "purpose": "Lifts the WhatsApp floating button off the page." }
+      {
+        "name": "card-hover",
+        "value": "0 24px 48px -28px rgba(29, 25, 18, .45)",
+        "purpose": "Soft drop under a practice card on hover only."
+      },
+      {
+        "name": "float-wa",
+        "value": "0 12px 30px -8px rgba(0, 0, 0, .6)",
+        "purpose": "Lifts the WhatsApp floating button off the page."
+      }
     ],
     "motion": [
-      { "name": "ease-out-soft", "value": "cubic-bezier(.2, .7, .2, 1)", "purpose": "All entrances, card lift, accordion and button transitions." },
-      { "name": "reveal", "value": "opacity + translateY(22px), 800ms, 80ms stagger capped at 5", "purpose": "One-time entrance as blocks enter the viewport." },
-      { "name": "pulse", "value": "scale 1 → 1.7, opacity .7 → 0, 2.6s infinite", "purpose": "WhatsApp float ring; disabled under reduced motion." }
+      {
+        "name": "ease-out-soft",
+        "value": "cubic-bezier(.2, .7, .2, 1)",
+        "purpose": "All entrances, card lift, accordion and button transitions."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity + translateY(22px), 800ms, 80ms stagger capped at 5",
+        "purpose": "One-time entrance as blocks enter the viewport."
+      },
+      {
+        "name": "pulse",
+        "value": "scale 1 → 1.7, opacity .7 → 0, 2.6s infinite",
+        "purpose": "WhatsApp float ring; disabled under reduced motion."
+      }
     ],
     "breakpoints": [
-      { "name": "lg", "value": "1080px" },
-      { "name": "md", "value": "900px" },
-      { "name": "sm", "value": "600px" }
+      {
+        "name": "lg",
+        "value": "1080px"
+      },
+      {
+        "name": "md",
+        "value": "900px"
+      },
+      {
+        "name": "sm",
+        "value": "600px"
+      }
     ]
   },
   "components": [
@@ -75,6 +197,14 @@
       "description": "Paper sheet on cream with a black medallion icon and a ruled list.",
       "html": "<article class=\"ds-card\"><span class=\"ds-medal\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2 22 16 8\"/><path d=\"M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"/><path d=\"M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"/><path d=\"M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"/></svg></span><h3>Direito Agrário</h3><p>Proteção jurídica para o produtor rural e para a propriedade.</p><ul><li>Contratos de arrendamento</li><li>Posse e conflitos possessórios</li></ul></article>",
       "css": ".ds-card{position:relative;max-width:280px;padding:2.2rem 1.7rem 2rem;background:#fffdf8;border:1px solid rgba(29,25,18,.14);border-radius:4px;color:#1d1912;font-family:Manrope,system-ui,sans-serif;transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,border-color .35s}.ds-card::after{content:'';position:absolute;left:0;top:0;width:100%;height:2px;background:#c9a55c;transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.7,.2,1)}.ds-card:hover{transform:translateY(-6px);border-color:rgba(122,93,34,.45);box-shadow:0 24px 48px -28px rgba(29,25,18,.45)}.ds-card:hover::after{transform:scaleX(1)}.ds-medal{display:grid;place-items:center;width:3.4rem;height:3.4rem;margin-bottom:1.5rem;background:#0e0c08;color:#c9a55c;border-radius:50%}.ds-card h3{margin:0;font:600 1.5rem/1.2 'Cormorant Garamond',serif}.ds-card p{margin:.7rem 0 0;font-size:.95rem;line-height:1.7;color:#5d5545}.ds-card ul{list-style:none;margin:1.3rem 0 0;padding:1.3rem 0 0;border-top:1px solid rgba(29,25,18,.14);display:grid;gap:.55rem}.ds-card li{position:relative;padding-left:1.1rem;font-size:.9rem}.ds-card li::before{content:'';position:absolute;left:0;top:.6em;width:.4rem;height:1px;background:#7a5d22}"
+    },
+    {
+      "name": "Rural-regularization Panel",
+      "kind": "custom",
+      "refersTo": "rural-panel",
+      "description": "Warm-black panel inside the cream areas band, with an inset gold hairline and ruled service rows.",
+      "html": "<div class=\"ds-rural\"><div><h3>Regularização do imóvel rural, <em>do cartório ao INCRA.</em></h3><p>O escritório conduz os procedimentos administrativos do imóvel rural.</p></div><ul><li><strong>CAR</strong><span>Cadastro Ambiental Rural</span></li><li><strong>CCIR</strong><span>Certificado de Cadastro de Imóvel Rural, junto ao INCRA</span></li></ul></div>",
+      "css": ".ds-rural{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:2rem;background:#0e0c08;color:#ece6d8;border-radius:4px;font-family:Manrope,system-ui,sans-serif}.ds-rural::before{content:'';position:absolute;inset:.6rem;border:1px solid rgba(201,165,92,.28);pointer-events:none}.ds-rural h3{margin:0;font:500 1.9rem/1.12 'Cormorant Garamond',serif;color:#fff}.ds-rural h3 em{color:#c9a55c}.ds-rural p{color:#b3aa97;font-size:.95rem}.ds-rural ul{list-style:none;margin:0;padding:0;position:relative}.ds-rural li{padding:.9rem 0;border-top:1px solid rgba(201,165,92,.28)}.ds-rural li:last-child{border-bottom:1px solid rgba(201,165,92,.28)}.ds-rural strong{display:block;font:600 1.3rem/1.2 'Cormorant Garamond',serif;color:#fff}.ds-rural span{font-size:.9rem;color:#b3aa97}"
     },
     {
       "name": "Header Navigation",
@@ -112,11 +242,31 @@
       "Flat surfaces; one soft shadow, on card hover only."
     ],
     "rules": [
-      { "name": "The Ink, Not Paint Rule", "body": "Gold draws lines, frames, icons and a few words. The only gold-filled surface is the primary button.", "section": "colors" },
-      { "name": "The One Green Rule", "body": "WhatsApp green appears once, on the floating button. Every other WhatsApp CTA is gold.", "section": "colors" },
-      { "name": "The Gold Tail Rule", "body": "A headline may end with one italic gold phrase that completes the thought (\"…*no campo, nos imóveis e nos negócios.*\"). One per headline, always at the end, never a single word. This is an approved exception to the italic-serif detector (user confirmed).", "section": "typography" },
-      { "name": "The Few Eyebrows Rule", "body": "Uppercase gold eyebrows appear only where the headline alone would not say what the section is: the hero, \"Sobre o advogado\" and \"Localização e contato\". Every other section opens with the headline. Never add more than three besides the hero.", "section": "typography" },
-      { "name": "The Mat Frame Rule", "body": "Portrait photographs sit on a 1px gold frame offset about 1rem from the image, never inside a rounded card or a shadow.", "section": "elevation" }
+      {
+        "name": "The Ink, Not Paint Rule",
+        "body": "Gold draws lines, frames, icons and a few words. The only gold-filled surface is the primary button.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Green Rule",
+        "body": "WhatsApp green appears once, on the floating button. Every other WhatsApp CTA is gold.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Tail Rule",
+        "body": "A headline may end with one italic gold phrase that completes the thought (\"…*no campo, nos imóveis e nos negócios.*\"). One per headline, always at the end, never a single word. This is an approved exception to the italic-serif detector (user confirmed).",
+        "section": "typography"
+      },
+      {
+        "name": "The Few Eyebrows Rule",
+        "body": "Uppercase gold eyebrows appear only where the headline alone would not say what the section is: the hero, \"Sobre o advogado\" and \"Localização e contato\". Every other section opens with the headline. Never add more than three besides the hero.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mat Frame Rule",
+        "body": "Portrait photographs sit on a 1px gold frame offset about 1rem from the image, never inside a rounded card or a shadow.",
+        "section": "elevation"
+      }
     ],
     "dos": [
       "Do alternate dark and cream bands, with the person and the promise on dark and the reading on cream.",

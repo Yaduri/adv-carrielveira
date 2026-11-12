@@ -161,7 +161,7 @@ Warm, low-chroma darks and creams with a single metallic accent.
 
 Single column of full-bleed bands, content in a centered container of 1180px with 1.25rem gutters (`min(100% - 2.5rem, 1180px)`). Band padding is fluid, `clamp(4.5rem, 9vw, 8rem)` top and bottom.
 
-Two-column splits (hero, about, team, differentials, contact) use unequal fractions such as 1.12/0.88 or 0.85/1.15, with gaps of `clamp(2.5rem, 6vw, 5.5rem)`, so text and image never mirror each other. Practice areas are a 4-up grid, and the process is a 4-step row joined by dashed gold connectors.
+Two-column splits (hero, about, team, differentials, contact) use unequal fractions such as 1.12/0.88 or 0.85/1.15, with gaps of `clamp(2.5rem, 6vw, 5.5rem)`, so text and image never mirror each other. Practice areas are a 3-up grid of six cards (2-up below 1080px, 1-up below 600px), followed by the rural-regularization panel; the process is a 4-step row joined by dashed gold connectors.
 
 Breakpoints: at 1080px cards and steps go 2-up; at 900px every split stacks, the nav becomes a drop-down panel and the differentials header stops being sticky; at 600px cards and steps go 1-up, steps turn into icon-left rows, and hero and contact CTAs become full width.
 
@@ -192,6 +192,9 @@ Confident but plain, like a stamped seal.
 ### Navigation
 - **Desktop:** transparent over the hero, becoming warm-black at 94% with a gold hairline after scroll. Links are 0.86rem Manrope in text-on-dark with a gold underline on hover, and the gold "Análise do caso" button closes the row.
 - **Mobile (≤900px):** a 46px outlined gold menu button opens a full-width panel with 1rem links separated by hairlines and a full-width gold CTA. Escape or choosing a link closes it.
+
+### Rural-regularization panel
+A warm-black panel set inside the cream practice-areas band, with an inner 1px gold hairline inset 0.6rem like a document border. The left column has a serif title with a gold italic tail, a muted paragraph and the gold CTA; the right column has the services as ruled rows with a gold Lucide icon, the acronym in serif (1.3rem) and a muted description. It stacks to one column at 900px. It is the one dark surface allowed inside a cream band.
 
 ### Accordion (FAQ)
 Serif questions at 1.4rem (1.2rem on mobile) between hairlines, with a gold plus that rotates into an ×. Only one item is open at a time, and panels expand with a grid-row transition. Buttons sit inside h3 elements and use aria-expanded and aria-controls.

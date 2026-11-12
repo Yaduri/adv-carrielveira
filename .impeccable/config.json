@@ -11,6 +11,24 @@
         ],
         "createdAt": "2026-11-10T11:56:55.365Z",
         "reason": "user confirmed 2026-11-10: gold-italic emphasis on the tail of headlines mirrors the office's Instagram posts; recorded in DESIGN.md"
+      },
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T12:03:39.561Z",
+        "reason": "user confirmed 2026-11-10: chose to keep eyebrows only on hero, Sobre and Contato (DESIGN.md Few Eyebrows Rule)"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T12:03:40.215Z",
+        "reason": "false positive: static scan of full-bleed <section> bands that are padded by .section (clamp 4.5-8rem) and .container gutters; rendered scans at 1280 and 390 report no cramped padding"
       }
     ]
   }

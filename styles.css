@@ -193,7 +193,7 @@ h3 { font-family: var(--serif); font-weight: 600; font-size: 1.5rem; line-height
 
 /* ---------- Áreas ---------- */
 
-.cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
 .card {
   position: relative; display: flex; flex-direction: column;
   padding: 2.2rem 1.7rem 2rem;
@@ -215,6 +215,31 @@ h3 { font-family: var(--serif); font-weight: 600; font-size: 1.5rem; line-height
 .card ul { margin-top: 1.3rem; padding-top: 1.3rem; border-top: 1px solid var(--line-dark); display: grid; gap: .55rem; }
 .card li { position: relative; padding-left: 1.1rem; font-size: .9rem; line-height: 1.5; }
 .card li::before { content: ''; position: absolute; left: 0; top: .6em; width: .4rem; height: 1px; background: var(--gold-deep); }
+
+/* Regularização rural: painel escuro dentro da seção creme */
+.rural {
+  display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(2rem, 5vw, 4.5rem);
+  margin-top: clamp(2.5rem, 5vw, 3.5rem); padding: clamp(2rem, 4.5vw, 3.5rem);
+  background: var(--ink); color: var(--text-light); border-radius: var(--radius);
+  position: relative;
+}
+.rural::before {
+  content: ''; position: absolute; inset: .6rem; border: 1px solid var(--line-light); pointer-events: none;
+}
+.rural__copy { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 1.2rem; }
+.rural__copy h3 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.8rem, 3.2vw, 2.4rem); line-height: 1.12; color: #fff; text-wrap: balance; }
+.rural__copy h3 em { font-style: italic; color: var(--gold); }
+.rural__copy p { color: var(--muted-light); max-width: 30rem; }
+.rural__copy .btn { margin-top: .4rem; }
+.rural__list { position: relative; display: grid; align-content: center; }
+.rural__list li {
+  display: grid; grid-template-columns: auto 1fr; gap: 1rem; align-items: center;
+  padding: 1rem 0; border-top: 1px solid var(--line-light);
+}
+.rural__list li:last-child { border-bottom: 1px solid var(--line-light); }
+.rural__list svg { width: 1.6rem; height: 1.6rem; color: var(--gold); }
+.rural__list strong { display: block; font-family: var(--serif); font-size: 1.3rem; font-weight: 600; line-height: 1.2; color: #fff; }
+.rural__list span { display: block; font-size: .9rem; line-height: 1.5; color: var(--muted-light); }
 
 .section__cta { margin-top: 2.6rem; font-size: 1rem; color: var(--muted-dark); }
 .section__cta a {
@@ -386,7 +411,7 @@ h3 { font-family: var(--serif); font-weight: 600; font-size: 1.5rem; line-height
   .nav a:not(.btn) { padding: 1rem 0; font-size: 1rem; border-bottom: 1px solid rgba(201, 165, 92, .14); }
   .nav .btn { margin-top: 1.2rem; padding: 1rem; font-size: .95rem; }
 
-  .hero__grid, .about, .team, .diff, .contact { grid-template-columns: 1fr; }
+  .hero__grid, .about, .team, .diff, .contact, .rural { grid-template-columns: 1fr; }
   .hero__photo { justify-self: center; max-width: 26rem; margin-right: 1.1rem; }
   .hero__photo figcaption { left: -.75rem; }
   .about__photo { max-width: 26rem; margin-left: 1rem; }

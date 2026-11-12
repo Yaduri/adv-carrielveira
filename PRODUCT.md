@@ -12,15 +12,15 @@ Static HTML, CSS and vanilla JS (`index.html`, `styles.css`, `script.js`), no bu
 
 ## Users
 
-Primary: rural producers (produtores rurais) and landowners in Itapetininga/SP and region who need legal security over land, contracts and assets. When focus conflicts, they come first.
+Primary: rural producers (produtores rurais) and landowners in Itapetininga/SP and region who need legal security over land, possession, contracts and assets, including the administrative regularization of rural property. When focus conflicts, they come first.
 
-Secondary, in this order of weight: property owners and buyers (imóveis, regularização, inventário), people who need a contract drafted or reviewed, and local businesses needing preventive or litigation counsel.
+Secondary, in this order of weight: property owners and buyers, families dealing with inventário and family matters, people who need a contract drafted or reviewed, and local businesses and business families (including holding familiar e patrimonial).
 
 The visitor's job: decide whether this office understands their situation well enough to send a first WhatsApp message describing their case.
 
 ## Product Purpose
 
-Landing page for Carriel Vieira Advogados, led by Dr. Alessandro Carriel Vieira (OAB/SP since 2012). It exists to generate qualified contacts through WhatsApp, conveying authority, clarity, confidentiality, trust and strategic service. Success is a visitor opening WhatsApp with the prefilled message to request a case analysis.
+Landing page for Carriel Vieira Advogados, legally Alessandro Carriel Vieira Sociedade Individual de Advocacia (CNPJ 29.724.516/0001-60), led by Dr. Alessandro Carriel Vieira (OAB/SP 314.944, practicing since 2012). It exists to generate qualified contacts through WhatsApp, conveying authority, clarity, confidentiality, trust and strategic service. Success is a visitor opening WhatsApp with the prefilled message to request a case analysis.
 
 ## Positioning
 
@@ -28,7 +28,8 @@ Dr. Alessandro grew up in Itapetininga as the son of an agropecuarista: he knows
 
 ## Operating Context
 
-- Practice areas: Direito Agrário (contratos agrários, posse, regularização, proteção ao produtor rural), Direito Imobiliário (compra e venda, regularização, locação, inventário), Contratos (elaboração, revisão, blindagem contratual), Direito Empresarial (assessoria preventiva e contenciosa).
+- Practice areas (confirmed by the lawyer on 2026-11-12): Direito Agrário (arrendamento e parceria, regularização de imóveis rurais, assessoria ao produtor), Direito Possessório (retificação de área, usucapião, ação de divisão, reintegração e manutenção de posse), Direito Imobiliário (compra e venda, regularização, locação), Família e Sucessões (inventário judicial e extrajudicial, partilha, direito de família), Contratos (elaboração, revisão, blindagem contratual), Direito Empresarial (assessoria preventiva e contenciosa, holding familiar e patrimonial).
+- Administrative procedures for rural property, with partner engineers who work together with the office: CAR (Cadastro Ambiental Rural), ITR, CCIR junto ao INCRA, desmembramento de terras, georreferenciamento rural. Copy frames the office as handling the legal and administrative side and the engineers as independent licensed professionals (Código de Ética art. 40, IV forbids advertising advocacy together with other activities; the lawyer should confirm this framing).
 - First contact is always WhatsApp; service is in person at the office and online for the region.
 - Office: Rua Adolfo Arruda Melo, 330, Jardim Itália, Itapetininga/SP, CEP 18201-750.
 - Phone/WhatsApp: (15) 99760-7199. Instagram: @adv.carrielvieira.
@@ -41,7 +42,8 @@ Dr. Alessandro grew up in Itapetininga as the son of an agropecuarista: he knows
 - No email field or contact form for now; WhatsApp only.
 - No analytics, pixel or cookie banner; adding analytics later would require revisiting consent.
 - FAQ answers are general information written by the developer and still need the lawyer's review.
-- Open decisions: OAB/SP registration number (pending from the client; a visible `OAB/SP nº ______` placeholder stays until it arrives), business hours (omitted until provided), final domain (none yet; no canonical URL set; live at `adv-carrielvieira.pages.dev`).
+- Identification shown on the site: OAB/SP 314.944 (about section, hero caption, footer) and the society's legal name and CNPJ in the footer.
+- Open decisions: the society's own OAB registration number (registro da sociedade, distinct from the CNPJ; not yet provided), business hours (omitted until provided), final domain (none yet; no canonical URL; live at `adv-carrielvieira.pages.dev`, which og:image and JSON-LD currently point to), team member names, and the lawyer's review of the FAQ answers.
 
 ## Brand Commitments
 
@@ -56,8 +58,8 @@ Dr. Alessandro grew up in Itapetininga as the son of an agropecuarista: he knows
 - `./assinando docs.jpg` — Dr. Alessandro signing documents next to Direito Agrário books (hero).
 - `./foto preto e branco.jpg` — black-and-white portrait, light paneled wall (About).
 - `./foto bem vindo.jpg` — team of five under "Bem-vindos à Carriel Advogados" (team section). Team is presented collectively; no names or roles are known and none may be invented.
-- Verifiable facts only: practicing since 2012, raised in Itapetininga, son of an agropecuarista, the four practice areas, address and contacts.
-- Absent and not to be fabricated: testimonials, client counts, success rates, awards, press, team member names.
+- Verifiable facts only: practicing since 2012, OAB/SP 314.944, CNPJ 29.724.516/0001-60, raised in Itapetininga, son of an agropecuarista, the six practice areas and the rural administrative procedures, address and contacts.
+- Absent and not to be fabricated: testimonials, client counts, success rates, awards, press, team member names, names or registrations of the partner engineers.
 
 ## Product Principles
 
